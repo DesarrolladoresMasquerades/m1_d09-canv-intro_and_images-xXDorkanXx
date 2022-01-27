@@ -89,6 +89,7 @@ ctx.strokeStyle = "white";
 ctx.lineWidth = 3;
 ctx.setLineDash([6, 8]);
 ctx.stroke();
+ctx.restore();
 ctx.closePath();
 
 ctx.beginPath();
